@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<body>
+
+<head>
+<title> Resistration Form</title>
+<link rel="stylesheet" href="css/style.css" type=text/css />
+</head>
+
+<div class="regform">
+
+<h1> Student Registration Form</h1>
+<br><br><br>
+<!--div class="name"-->
+
+<form method="post" id="reg" action="..php">
+
+<label for="firstname">   First name :  </label>
+<input type="text" id="name" name="firstname" size="20" placeholder="Enter your first name">
+<br><br>
+
+<label for="middlename">   Middle name : </label>
+<input type="text" id="name" name="middletname" size="20" placeholder="Enter your middle name">
+<br><br>
+
+<label for="lastname">   Last name :  </label>
+<input type="text" id="name" name="lastname" size="20" placeholder="Enter your last name">
+<br><br>
+
+<label for="email">  Email id : </label>
+<input type="email" id="name" name="email" size="20" placeholder="Enter your email address">
+<br><br>
+
+<label for="password">  Password :  </label>
+<input type="password" name="pw" id="name" size="20"  placeholder="Enter password">
+<br><br>
+
+<label for="confirmpassword">  Confirm Password :    </label>
+<input type="password" name="cpw" id="name" size="20"  placeholder="Confirm your password">
+<br><br>
+
+<label for="phonenumber">   Phone :   </label>
+<input type="code" id="name" name="phonenumber" min="0" max="10" placeholder="Enter your phone number">
+<br><br>
+
+<label for="idcard"> Upload your ID card : </label>
+<br><br>
+<div class="image-upload-wrap">
+<input class="file-upload-input" type="file" id="abc" onchange="readURL(this);" accept="image/*" />
+<br>
+<div class="file-upload-content">
+<img class="file-upload-image" src="#" id="id" alt="your image" />
+<div class="image-title-wrap">
+</div>
+</div>
+</div>
+<br><br>
+
+
+<label for="registrationtype"> Registration Type : <select>
+<option value="Self"> Self </option>
+<option value="Group"> Group </option>
+<option value="Corporate"> Corporate </option>
+<option value="Otheres"> Otheres </option>
+</select>
+<br><br>
+
+
+<label for="registrationtype"> Number of tickets : <select>
+<option value="1"> 1 </option>
+<option value="2"> 2 </option>
+<option value="3"> 3 </option>
+<option value="4"> 4 </option>
+<option value="5"> 1 </option>
+<option value="6"> 5 </option>
+<option value="7"> 7</option>
+<option value="8"> 8 </option>
+<option value="9"> 9 </option>
+<option value="10"> 10 </option>
+<option value="11"> 11 </option>
+<option value="12"> 12 </option>
+<option value="13"> 13 </option>
+<option value="14"> 14 </option>
+<option value="15"> 15 </option>
+<option value="16"> 16 </option>
+<option value="17"> 17 </option>
+<option value="18"> 18 </option>
+<option value="19"> 19 </option>
+<option value="20"> 20 </option>
+</select>
+<br><br>
+
+<label for="dateofbirth">Date of Birth : </label>
+<input type="date" name="date" id="name" placeholder="dd/mm/yyyy">
+<br><br>
+
+<label for="gender"> Gender : </label>
+<br>
+<input type="radio" name="ma"> Male 
+<br>
+<input type="radio" name="ma"> Female
+<br>
+<input type="radio" name="ma"> Others 
+<br><br><br>
+
+<label for="address"> Enter your Address :  </label>
+<br><br>
+
+<label for="city"> City : </label>
+<input type="text" id="name" name="ct" size="20" placeholder="Enter your City">  
+<br><br>
+
+<label for="pincode"> Pincode : </label>
+<input type="code" id="name" name="ct" size="20" placeholder="Enter your Pincode">
+<br><br>
+
+<label for="state"> State : </label>
+<input type="text" id="name" name="st" size="20" placeholder="Enter your State">  
+<br><br>
+
+<label for="country"> Country : &nbsp&nbsp&nbsp</label>
+<input type="text" id="name" name="ctr" size="20" placeholder="Enter your Country">
+<br><br>
+
+<input type="checkbox" name="ch"> I agree all the terms and conditions .
+<br><br>
+
+<button type="submit" id="rgr"> Register Now </button>
+<br><br>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
